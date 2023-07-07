@@ -4,5 +4,23 @@
 }
 .test{
     color: blue;
-    cursor: pointer;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+}
+
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
 }
